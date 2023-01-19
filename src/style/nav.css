@@ -10,8 +10,8 @@ ul{
    .nav{
      
     
-     /* background-color: #e6e7e8; */
-     background-color: transparent;
+     background-color: #e6e7e8;
+     /* background-color: transparent; */
      position: fixed; 
      z-index: 1;
      top: 0; /* Position the navbar at the top of the page */

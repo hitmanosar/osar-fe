@@ -1,5 +1,8 @@
 import React from "react";
-import '../style/nav.css';
+// import '../style/nav.css';
+
+import {Link} from 'react-router-dom';
+
 
 
 function Nav() {
@@ -41,10 +44,10 @@ function Nav() {
             <div className="col mt-2">
             <ul className="uls">
             <li >
-              <a aria-current="page" href="#">Home</a>
+              <a> <Link className="al nav-item active" to='/'>Home</Link></a>
             </li>
             <li >
-              <a href="#">About</a>
+              <a ><Link className="al nav-item active" to='/about'>About</Link></a>
             </li>
             <li >
               <a  href="#">Services</a>
