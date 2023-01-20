@@ -1,0 +1,12 @@
+.pd{
+    margin-top: 80px;
+}
+
+
+input[type=text]{
+    border: 1px solid black;
+    outline: none;
+    padding: 13px 30px;
+    width: 50%;
+    border-radius: 100px;
+}

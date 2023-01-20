@@ -47,15 +47,15 @@ function Nav() {
               <a> <Link className="al nav-item active" to='/'>Home</Link></a>
             </li>
             <li >
-              <a ><Link className="al nav-item active" to='/about'>About</Link></a>
+            <a ><Link className="al nav-item active" to='/product'>products</Link></a>
             </li>
             <li >
-              <a  href="#">Services</a>
+              <a ><Link className="al nav-item active" to='/about'>about</Link></a>
             </li>
 
 
             <li >
-              <a  href="#">Content</a>
+              <a ><Link className="al nav-item active" to='/content'>content</Link></a>
             </li>
           </ul>
             </div>

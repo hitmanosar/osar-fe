@@ -25,7 +25,9 @@ function Main() {
         <div className="col-12 col-lg-3 col-md-7  p-3 rounded bg-danger">
           <p>Hair Care</p>
           <img src={h1} width={100+'%'} height={200+'px'} alt="" />
-          <button className="btn btn-primary float-end mt-5">See More</button>
+          <p></p>
+          <button className="btn btn-primary float-end my-4">See More</button>
+        
         </div>
 
        
@@ -38,19 +40,22 @@ function Main() {
       <div className="col-12 col-lg-3 col-md-7 col-sm-12 p-3 rounded mt-5 bg-danger">
           <p>Hair Care</p>
           <img src={h1} width={100+'%'} height={200+'px'} alt="" />
-          <button className="btn btn-primary float-end mt-5">See More</button>
+          <p></p>
+          <button className="btn btn-primary float-end my-4">See More</button>
         </div>
 
         <div className="col-12 col-lg-3 col-md-7 col-sm-12 p-3 mt-5 rounded bg-danger">
           <p>Hair Care</p>
           <img src={h1} width={100+'%'} height={200+'px'} alt="" />
-          <button className="btn btn-primary float-end mt-5">See More</button>
+          <p></p>
+          <button className="btn btn-primary float-end my-4">See More</button>
         </div>
 
         <div className="col-12 col-lg-3 col-md-7 col-sm-12 p-3  mt-5 rounded bg-danger">
           <p>Hair Care</p>
           <img src={h1} width={100+'%'} height={200+'px'} alt="" />
-          <button className="btn btn-primary float-end mt-5">See More</button>
+          <p></p>
+          <button className="btn btn-primary float-end my-4">See More</button>
         </div>
 
       </div>

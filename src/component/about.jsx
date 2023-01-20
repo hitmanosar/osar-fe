@@ -41,7 +41,7 @@ function About() {
         <Nav />
         <div className="container ab">
           <h1 className="text-center "> We Care Your Beauty, Feme!!!</h1>
-          <p className="text-center">
+          <p className="text-center mt-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ea
             quam assumenda unde quia? Maxime et molestiae rem amet fugiat quas
             assumenda nemo fuga praesentium iste, illo sit tempore quisquam.
@@ -53,7 +53,7 @@ function About() {
           <br />
           <img
             src={h3}
-            className="img img-fluid border border-danger"
+            className="img img-fluid border border-danger mt-3"
             width={100 + "%"}
             alt=""
           />
