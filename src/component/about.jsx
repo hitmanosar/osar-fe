@@ -19,21 +19,21 @@ function About() {
 
 
 
-  let nav = document.querySelector(".navs");
+  // let nav = document.querySelector(".navs");
 
-  let nav_bar = document.querySelector('.navbar-nav');
+  // let nav_bar = document.querySelector('.navbar-nav');
   
-  let nav_link = document.querySelector('.nav-link');
+  // let nav_link = document.querySelector('.nav-link');
   
-  window.addEventListener("scroll", () => {
-    if (window.pageYOffset > 200) {
-      nav.style['background-color'] = '#e6e7e8';
+  // window.addEventListener("scroll", () => {
+  //   if (window.pageYOffset > 200) {
+  //     nav.style['background-color'] = '#e6e7e8';
      
-    } else {
-      // nav.classList.remove("bgg");
-      nav.style['background-color'] = 'transparent';
-    }
-  });
+  //   } else {
+  //     // nav.classList.remove("bgg");
+  //     nav.style['background-color'] = 'transparent';
+  //   }
+  // });
 
   return (
     <React.Fragment>
@@ -62,7 +62,12 @@ function About() {
           
           <div className="mt-5">
           <Swiper
-        slidesPerView={3}
+
+style={{
+
+  "--swiper-navigation-size": "26px",
+}}
+        slidesPerView={2}
         spaceBetween={50}
         slidesPerGroup={3}
         loop={true}

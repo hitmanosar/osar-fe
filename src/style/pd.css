@@ -7,6 +7,6 @@ input[type=text]{
     border: 1px solid black;
     outline: none;
     padding: 13px 30px;
-    width: 50%;
+    width: 100%;
     border-radius: 100px;
 }

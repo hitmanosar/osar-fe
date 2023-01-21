@@ -4,20 +4,20 @@ function Footer() {
   return (
     <React.Fragment>
       <div className="footers mt-5 p-5">
-        <div className="mt-5 f_1">
+        <div className="mt-3 f_1">
           <p className="text-uppercase text-primary">cetephillie myanamar</p>
 
-          <div className="mt-5">
+          <div className="mt-3">
             <p>About Us</p>
             <p>Contents</p>
             <p>Terms & Condition</p>
           </div>
         </div>
 
-        <div  className="mt-5 f_2">
+        <div  className="mt-3 f_2">
           <p className="text-uppercase text-primary">Shop</p>
 
-          <div className="mt-5">
+          <div className="mt-3">
             <p>Cleansier</p>
             <p>Moisturizer</p>
             <p>Sun Protection</p>
@@ -27,10 +27,10 @@ function Footer() {
 
 
 
-      <div  className="mt-5 f_3">
+      <div  className="mt-3 f_3">
       <p className="text-uppercase text-primary">Social</p>
 
-<span><i class="fa-brands fa-facebook-f fa-2xl mt-5"></i></span>
+<span><i class="fa-brands fa-facebook-f fa-2xl mt-3"></i></span>
       </div>
 
       </div>

@@ -24,7 +24,7 @@ ul{
    }
     */
    
-   ul li a{
+   /* ul li a{
      text-decoration: none;
      font-size: 20px;
      color: black;
@@ -32,11 +32,8 @@ ul{
      font-weight: 100;
     
    }
-    
+     */
 
-   /* @media screen and (max-width: 500px) {
-    ul li a{
-      font-size: 15px;
-    }
+ 
 
-}  */
+

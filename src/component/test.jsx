@@ -1,34 +1,14 @@
 import React from "react";
-import Nav from "./nav";
-import "../style/pd.css";
-import c1 from "../photo/c1.jpg";
-import Side from "./side";
 import items from "../list";
 
-import "../style/side.css";
-import Model from "./model";
-import Search from "./search";
-
-function Body() {
+function Test() {
   return (
     <React.Fragment>
-      <Nav />
-      <div className="pd">
-        <img src={c1} className="img img-fluid w-100 h-auto" alt="" srcset="" />
-
-        <Search/>
-      </div>
-
-      <Model/>
-
-      <div className="side  p-3">
-        <Side />
-
-        <div className="right border border-primary px-5 py-2">
-          <div className="row  d-flex flex-row  justify-content-evenly   align-items-center">
+      <div className="container">
+        <div className="row  d-flex flex-column flex-lg-row flex-sm-column  align-items-center justify-content-around text-center">
           {items
             .filter((two) => {
-              return two.type == "body";
+              return two.type == "hair";
             })
             .map((one) => {
               return (
@@ -63,11 +43,32 @@ function Body() {
                 </div>
               );
             })}
-          </div>
         </div>
       </div>
     </React.Fragment>
   );
 }
 
-export default Body;
+{
+  /* <div class="card" style="width: 18rem;">
+  <img src={one?.photo} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">{one.name}</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button className="btn btn-primary text-center my-3">Detail</button>
+  </div>
+</div> */
+}
+
+export default Test;
+
+{
+  /* <img
+                      src={one?.photo}
+                    //   style={{ width: 150 + "px", height: 100 + "%" }}
+                      className='img img-fluid'
+                      alt=""
+                    />
+                    <p className="mt-3"> {one.name}  </p>
+                    <button className="btn btn-primary text-center my-3">Detail</button> */
+}

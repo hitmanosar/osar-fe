@@ -10,15 +10,18 @@
 }
 
 .left{
-    width: 10%;
+    width: 15%;
     height: auto;
+   overflow-x: hidden;
 }
 
 
 .right{
-    width: 90%;
+    width: 85%;
     height: auto;
-    margin-left: 20px;
+    margin: 0px auto;
+    /* margin-left: 20px; */
+    
 
 }
 

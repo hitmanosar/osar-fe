@@ -11,7 +11,8 @@ import Body from './component/body';
 import Collagen from './component/collagen';
 import Daily from './component/daily';
 import Contents from './component/contents';
-
+import Test from './component/test';
+import ScrollButton from './component/button';
 
 function App() {
   return (
@@ -28,12 +29,15 @@ function App() {
         <Route path="/collagen" element={<Collagen/>}/>
         <Route path="/daily" element={<Daily/>}/>
         <Route path="/content" element={<Contents/>}/>
+        <Route path="/test" element={<Test/>}/>
         
-        
+       
         
       </Routes>
     
      </Router>
+
+     <ScrollButton/>
     </div>
   );
 }

@@ -5,6 +5,8 @@ import c1 from "../photo/c1.jpg";
 import Side from "./side";
 import All_list from "./all";
 import "../style/side.css";
+import Model from "./model";
+import Search from "./search";
 
 function Product() {
   return (
@@ -13,34 +15,16 @@ function Product() {
       <div className="pd">
         <img src={c1} className="img img-fluid w-100 h-auto" alt="" srcset="" />
 
-        <div className="container-fluid p-5 ">
-          <div className="row border border-primary p-5">
-            <div className="col mt-4">
-              <h1>LOGO</h1>
-            </div>
-
-            <div className="col mt-4">
-              <input type="text" placeholder="search here" />
-            </div>
-          </div>
-        </div>
+       <Search/>
       </div>
 
-      <div className="side  p-3">
-        
-      
-      <Side/>
-        
-      
-      <All_list/>
+      <Model/>
 
+      <div className="side  p-3 ">
+        <Side />
 
-
-
-           
-       
-</div>
-
+        <All_list />
+      </div>
     </React.Fragment>
   );
 }

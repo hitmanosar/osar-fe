@@ -39,6 +39,7 @@ function Nav() {
             <div className="col mt-2">
                 {/* <img src={l1} width={25+'%'} alt="" /> */}
                 <h1>LOGO</h1>
+           
             </div>
 
             <div className="col mt-2">
