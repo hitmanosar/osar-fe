@@ -13,6 +13,7 @@ import Daily from './component/daily';
 import Contents from './component/contents';
 import Test from './component/test';
 import ScrollButton from './component/button';
+import Loader from './component/loader';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/daily" element={<Daily/>}/>
         <Route path="/content" element={<Contents/>}/>
         <Route path="/test" element={<Test/>}/>
+        <Route path="/load" element={<Loader/>}/>
         
        
         

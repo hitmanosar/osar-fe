@@ -7,6 +7,32 @@ import Modal from "react-modal";
 
 
 function Model() {
+
+
+
+  
+<style type="text/css">
+        {`
+  .als{
+    
+    width: 50px;
+    transition: all 1s;
+    color : white;
+    background-color : black;
+   
+}
+
+ .als:hover{
+    transform: scale(1.1,1.1);
+    color : white;
+}
+ 
+
+
+
+    
+    `}
+      </style>
   const customStyles = {
     content: {
       top: "50%",
@@ -63,7 +89,7 @@ function Model() {
            
 
            <div className="d-flex flex-row justify-content-around align-items-center p-5">
-           <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Categories   </h2>
+           <h2 ref={(_subtitle) => (subtitle = _subtitle)} >Categories   </h2>
 
 <i onClick={closeModal} class="fa-solid fa-xmark fa-2xl text-end"></i> 
 
@@ -76,39 +102,39 @@ function Model() {
         
              <div className="item d-flex flex-column flex-lg-row flex-md-column justify-content-evenly align-items-center mb-5">
              <Link
-              className=" btn btn-primary text-white  nav-item active mt-2"
+              className=" btn als   nav-item active mt-2"
               to="/product"
             >
               All Products
             </Link>
             <Link
-              className=" btn btn-primary text-white nav-item active mt-2"
+              className=" btn als  nav-item active mt-2"
               to="/hair"
             >
               Hair Care
             </Link>
             <Link
-              className=" btn btn-primary text-white   nav-item active mt-2"
+              className=" btn  als  nav-item active mt-2"
               to="/skin"
             >
               Skin Care
             </Link>
             <Link
-              className="btn btn-primary text-white nav-item active mt-2"
+              className="btn als  nav-item active mt-2"
               to="/body"
             >
               Body Care
             </Link>
 
             <Link
-              className=" btn btn-primary text-white nav-item active mt-2"
+              className=" btn als  nav-item active mt-2"
               to="/collagen"
             >
               Collagen
             </Link> 
 
             <Link
-              className=" btn btn-primary text-white  nav-item active mt-2"
+              className=" btn als   nav-item active mt-2"
               to="/daily"
             >
               Daily Wash

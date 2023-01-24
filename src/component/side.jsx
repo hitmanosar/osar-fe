@@ -20,16 +20,21 @@ function Side() {
 
 <style type="text/css">
         {`
-  .als{
-    border: 1px solid blue;
-    width: 150px;
-    transition: all 1s;
-   
+ 
+
+.als{
+  color: white;
+  background-color: black;
+  width: 150px;
+  transition: all 1s;
+ 
 }
 
- .als:hover{
-    transform: scale(1.1,1.1);
+.als:hover{
+  transform: scale(1.1,1.1);
+  color: white;
 }
+
  
 
 
@@ -46,27 +51,29 @@ function Side() {
           <p className="mt-2">Body Care</p>
           <p className="mt-2">Daily Wash</p>  */}
  <div className="left border border-primary text-center">
-          <Link className="als btn btn-primary text-white  nav-item active mt-2" to="/product">
+         <div className="mt-5">
+         <Link className="als btn   nav-item active mt-2" to="/product">
         All Products
       </Link>
-      <Link className="als btn btn-primary text-white nav-item active mt-2" to="/hair">
+      <Link className="als btn  nav-item active mt-2" to="/hair">
       Hair Care
       </Link>
-      <Link className="als btn btn-primary text-white   nav-item active mt-2" to="/skin">
+      <Link className="als btn    nav-item active mt-2" to="/skin">
       Skin Care
       </Link>
-      <Link className="als btn btn-primary text-white nav-item active mt-2" to="/body">
+      <Link className="als btn  nav-item active mt-2" to="/body">
       Body Care
       </Link>
 
-      <Link className="als btn btn-primary text-white nav-item active mt-2" to="/collagen">
+      <Link className="als btn  nav-item active mt-2" to="/collagen">
       Collagen
       </Link>
 
-      <Link className="als btn btn-primary text-white  nav-item active mt-2" to="/daily">
+      <Link className="als btn  nav-item active mt-2" to="/daily">
       Daily Wash
       </Link>
 
+         </div>
 
       </div>
     </React.Fragment>

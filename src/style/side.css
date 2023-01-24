@@ -28,7 +28,8 @@
 
 
 .als{
-    border: 1px solid blue;
+    color: white;
+    background-color: black;
     width: 150px;
     transition: all 1s;
    
@@ -36,6 +37,7 @@
 
  .als:hover{
     transform: scale(1.1,1.1);
+    color: white;
 }
  
 

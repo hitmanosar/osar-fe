@@ -7,6 +7,7 @@ function Client() {
     <React.Fragment>
       <div className="container mt-5 bg-primary p-5">
         <h1 className="text-center">What My Clients Says</h1>
+      
         <hr className="mt-5" />
 
         <div className="row d-flex flex-column flex-lg-row flex-md-column justify-content-evenly align-items-center">
@@ -23,7 +24,7 @@ function Client() {
   </div>
 </div> */}
 
-          <div className="col-12  mt-5 col-lg-3 col-md-6 col-sm-12  p-3">
+          <div className="col-12  mt-4 col-lg-3 col-md-6 col-sm-12  p-3">
             <div class="card p-2" >
               <img src={client} class="card-img-top" alt="..." />
               <div class="card-body">
@@ -40,7 +41,7 @@ function Client() {
             </div>
           </div>
 
-          <div className="col-12  mt-5 col-lg-3 col-md-6 col-sm-12  p-3">
+          <div className="col-12  mt-4 col-lg-3 col-md-6 col-sm-12  p-3">
             <div class="card  p-2" >
               <img src={client} class="card-img-top" alt="..." />
               <div class="card-body">
@@ -57,7 +58,7 @@ function Client() {
             </div>
           </div>
 
-          <div className="col-12  mt-5 col-lg-3 col-md-6 col-sm-12  p-3">
+          <div className="col-12  mt-4 col-lg-3 col-md-6 col-sm-12  p-3">
             <div class="card  p-2" >
               <img src={client} class="card-img-top" alt="..." />
               <div class="card-body">

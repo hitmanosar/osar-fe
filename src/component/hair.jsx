@@ -64,7 +64,7 @@ function Hair() {
                       </div>
                     </div>
 
-                    <button className="btn btn-primary  my-3 mx-5">$400</button>
+                    <button className="btn btn-primary  my-4 mx-5">$400</button> <p></p>
                   </div>
                 </div>
               );
